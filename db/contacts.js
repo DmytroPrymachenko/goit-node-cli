@@ -35,7 +35,7 @@ export async function addContact(name, email, phone) {
     email,
     phone,
   };
-  contact.push(newContact);
+  contact.push(newContacts);
   await upListContacts(contact);
   return newContacts;
 }
